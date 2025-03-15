@@ -2,14 +2,7 @@
 
 function CalculateAge() {
     const x = document.getElementById("date").value;
-    //let yx = x.substring(0, 4);
-    //let dx = x.substring(5, 7);
-    //let mx = x.substring(8, x.length);
     const bd = new Date(x);
-
-    //console.log(yx)
-    //console.log(dx)
-    //console.log(mx)
 
 
     const today = new Date();
